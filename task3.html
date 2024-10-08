@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JavaScript task3</h1>
+    <script>
+      
+      function greet() {
+        console.log("Hello, World!");
+      }
+      greet();
+
+      //addnumbers func
+      function addNumbers(a, b) {
+        let sum = a + b;
+        console.log(sum);
+      }
+      addNumbers(5, 8);
+
+      //multiply func
+      function multiply(x, y) {
+        let product = x * y;
+        return product;
+      }
+
+      console.log(multiply(3, 3));
+
+      //react-area func
+      function calculateRectangleArea(length, width) {
+        let area = multiply(length, width);
+        console.log(area);
+      }
+      calculateRectangleArea(4, 6);
+
+
+      //greet function
+      function greetUser(name = "guest") {
+        console.log(`Hello, ${name}!`);
+      }
+      greetUser();
+      greetUser("Vishnu");
+    </script>
+  </body>
+</html>

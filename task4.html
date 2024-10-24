@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">Todays javascript task</p>
+    <div class="side-line">this is first task</div>
+    <div class="side-line">this is second task</div>
+    <div class="side-line">this is third task</div>
+    <h1>This is innomatics</h1>
+    <p id="select">this is for querySelector</p>
+
+    <span class="vii">task is completed</span>
+    <span class="vii">task is completed</span>
+    <span class="vii">task is completed</span>
+
+    <h5 id="bio">My hobby is playing pc games and swimming</h5>
+
+    <script>
+        document.getElementById("para").style.backgroundColor="red";
+        document.getElementById("para").style.fontSize="20px";
+        
+        document.getElementsByClassName("side-line")[0].style.color="brown";
+        document.getElementsByClassName("side-line")[0].style.fontSize="50px";
+        document.getElementsByClassName("side-line")[1].style.color="voilet";
+        document.getElementsByClassName("side-line")[1].style.fontSize="50px";
+        document.getElementsByClassName("side-line")[2].style.color="aqua";
+        document.getElementsByClassName("side-line")[2].style.fontSize="50px";
+        
+
+        document.getElementsByTagName("h1")[0].style.border="3px solid black";
+        
+        
+        document.querySelector("#select").style.fontStyle = "italic";
+
+        document.querySelectorAll(".vii")[0].style.margin="100px";
+        document.querySelectorAll(".vii")[1].style.margin="100px";
+        document.querySelectorAll(".vii")[2].style.margin="100px";
+
+        document.getElementById("bio").style.border = "2px solid black"
+        document.getElementById("bio").style.backgroundColor="aqua";
+        document.getElementById("bio").style.color="red";
+
+        
+    
+
+    
+
+      
+    </script>
+</body>
+</html>
